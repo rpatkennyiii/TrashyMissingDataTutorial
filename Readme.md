@@ -22,7 +22,7 @@ You will find installer at https://graphviz.org/download/. The most recent versi
 
 
 5. **Install requirements**
-Open a cmd shell, powershell... shell I guess, or terminal. navigate to where you have placed this directory on your system and run:
+Open a clean cmd shell, powershell... shell I guess, or terminal. Make sure you open this after the python installer has finished. This will ensure that python and pip are on the PATH. navigate to where you have placed this directory on your system and run:
 `pip install -r req.txt`
 If you have pip troubles, check out [Using Python's pip to Manage Your Projects' Dependencies](https://realpython.com/what-is-pip/#getting-started-with-pip), and hopefully it will see you through. The current req.txt file is setup specifically for Windows. If you are running this in another environment, you will need to edit the req.txt removing the content prior to the jax package [here](https://github.com/mediwareinc/TrashyMissingDataTutorial/blob/93c54a4b9d3789cf7454fc3777fd71048affaab2/req.txt#L16) 
 
